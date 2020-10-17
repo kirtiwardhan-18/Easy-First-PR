@@ -25,4 +25,5 @@ remote_user: root
   - name: ensure that postgresql is started
     service:
       name: postgresql
-state: started
+      state: started
+...
